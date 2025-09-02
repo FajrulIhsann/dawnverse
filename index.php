@@ -85,6 +85,25 @@ if(isset($_SESSION['isLogin']) == true){
             </div>
         </div>
 
+         <!-- dawnnscripts-section -->
+        <div id="dawnnnscripts" class="w-100 h-120 mx-10 flex flex-col font-semibold">
+            <div class="desc text-white border-md flex justify-center flex-col  p-5 bg-(--main-color)/90 backdrop-blur-sm rounded-xl">
+                <div class="product-title mx-2 mr-5">
+                    <h1 class="text-5xl">Dawnscripts</h1>
+        
+                </div>
+
+                <div class="product-desc flex items-center my-6">
+                    <p>A project that can helps you to write tasks in to-do-list. You can add, edit, and delete your tasks.</p>
+                </div>
+                
+                
+            </div>
+            <div class="footer-desc mt-4 flex justify-center">
+                <button onclick="window.open('https://script.dawnverse.space', '_blank')" class="text-white bg-(--thirdly-color) hover:scale-110 transition hover:shadow-xl hover:shadow-indigo-500/50 ease-in-out rounded-md p-3 cursor-pointer text-xl">Try It now</button>
+            </div>
+        </div>
+
     </div>
 </div>
     
